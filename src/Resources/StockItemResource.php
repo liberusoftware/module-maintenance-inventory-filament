@@ -30,7 +30,7 @@ class StockItemResource extends Resource
 
     protected static string|\BackedEnum|null $navigationIcon = 'heroicon-o-archive-box';
 
-    protected static string|\UnitEnum|null $navigationGroup = 'Assets & inventory';
+    protected static string|\UnitEnum|null $navigationGroup = 'Maintenance';
 
     public static function form(Schema $schema): Schema
     {
